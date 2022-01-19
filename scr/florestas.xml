@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<florestas>
+		<tipo_floresta>
+			<id>floresta-temperada</id>
+			<imagem>f_temperada.jpg</imagem>
+			<nome>Floresta temperada</nome>
+			<descricao>A sua característica mais marcante, além das quatro estações do ano bem definidas, é a existênciade árvores como o carvalho, os bordos, as faias, as nogueiras etc., cujas folhas caducam e caem - daí o nome caducifólia ou decídua. Infelizmente, a Floresta Temperada foi bastante devastada pelos seres humanos, sendo substituída, principalmente, pela agricultura.</descricao>
+			<localizacao_geografica>Estas florestas localizam-se nas regiões de clima temperado, ou seja, grande parte do oeste da América do Norte, por quase toda a Europa, no oeste da Ásia (Turquia, Geórgia, Azerbaijão e Irão), leste da Ásia (Coreia, Japão e parte da China), na Austrália, na Nova Zelândia e ao sul do Chile, no Hemisfério Sul.</localizacao_geografica>
+			<clima>O clima é o clima temperado, sendo as quatro estações bem definidas. Na primavera, quente e húmida, há muito Sol, que, por vezes, cobre o solo durante toda a estação. No verão, a vegetação aumenta. No outono, o calor e a humidade podem chegar a ser elevados. As secas são raras e não muito severas. É no outono que acontece o fenômeno mais característico da floresta temperada: as plantas caducifólias ganham uma coloração dourada ou marrom nas folhas, que, depois, caem. No inverno, as folhas caem, tornando-se em nutrientes para o solo.</clima>
+			<flora>A floresta temperada caracteriza-se pela presença de várias espécies de árvores tal como ulmeiro, faia, nogueira, plátano, ácer, choupo, álamo, bétula, freixo, salgueiro, cerejeira, castanheiro, tília, amieiro, carvalho, pinheiro e cedro.</flora>
+			<fauna>A fauna é bastante rica: insetos que se alimentam de madeira (xilófagos), esquilos, ratos, veados, javalis, aves insetívoras, aves noturnas, ursos, lobos, e vários felinos. Em algumas regiões, como forma de adaptação às baixas temperaturas do inverno, alguns animais migram, enquanto outros animais hibernam.</fauna>
+			<sub_tipos>
+				<sub_tipo>
+					<nome>Perenifólia</nome>
+					<descricao>A floresta temperada é perenifólia quando as folhas das árvores não caem por motivo de clima ou estações, caem somente quando a planta chega à senescência ou seca.</descricao>
+				</sub_tipo>
+				<sub_tipo>
+					<nome>Decídua</nome>
+					<descricao>A floresta decídua temperada é um bioma temperado terrestre caracterizado por árvores caducifólias, como as faias, nogueiras e carvalhos. A sua característica principal é a perda de suas folhas durante o outono e o inverno.</descricao>
+				</sub_tipo>
+				<sub_tipo>
+					<nome>Coníferas</nome>
+					<descricao>A floresta temperada de coníferas é um bioma temperado terrestre. As suas árvores possuem folhas aciculadas, que são estreitas e afiladas, o que as torna adaptadas às baixas temperaturas.</descricao>
+				</sub_tipo>
+			</sub_tipos>
+		</tipo_floresta>
+		<tipo_floresta>
+			<id>floresta-seca</id>
+			<imagem>f_secaConiferas.jpg</imagem>
+			<nome>Floresta seca de folhas coníferas</nome>
+			<descricao>A floresta seca de folhas coníferas também pode ser designada por floresta boreal. Este é um bioma onde existem, na sua maioria, plantas do tipo coníferas. Embora este tipo de floresta permaneça inalterado pelo homem em muitas regiões, dadas as condições ambientais adversas para alcançar estas regiões, outras áreas são intensamente exploradas – o que se justifica pelo elevado valor comercial destas árvores (por exemplo, para a produção de papel).</descricao>
+			<localizacao_geografica>Localiza-se no hemisfério norte do planeta, abrangendo a Ásia (Sibéria, Japão), América do Norte (Alasca, Canadá, sul da Groenlândia) e Europa (parte da Noruega, Suécia).</localizacao_geografica>
+			<clima>O clima nesta região é subártico, caracterizado por um inverno muito frio, longo e seco com temperaturas que chegam a -50º C. O verão é curto e húmido, os dias são mais longos e as temperaturas podem chegar a 20º C. As chuvas são pouco frequentes. Durante o verão ocorre o degelo, o que forma lagos, pântanos e brejos. O solo é raso, pobre em nutrientes e coberto por folhas.</clima>
+			<flora>A flora é pouco diversificada devido às baixas temperaturas e à água congelada. As árvores crescem próximas umas das outras, formando uma densa cobertura e impedindo a penetração de luz solar intensa. Assim, a vegetação rasteira é pouco representativa, sendo constituída por musgos, líquenes e alguns arbustos.</flora>
+			<fauna>A fauna é composta principalmente por mamíferos, entre os quais estão renas, alces, veados, lobos, ursos polares, linces, esquilos, coelhos, lebres e outros. Para além disso, diversas aves, também, migram para este ambiente durante o verão, pois são atraídas pela abundância de insetos que se multiplicam nos pântanos formados pelo degelo. A maioria dos animais migra para regiões mais quentes ou hiberna durante o inverno. Outros permanecem e são protegidos do frio através dos seus pelos, penas e peles espessas. Alguns mudam de coloração para se adaptarem, como é o caso do arminho (pequeno mamífero carnívoro) que é castanho-escuro no verão e branco no inverno, camuflando-se para se proteger dos predadores.</fauna>
+		</tipo_floresta>
+		<tipo_floresta>
+			<id>floresta-equatorial</id>
+			<imagem>f_equatorial.jpg</imagem>
+			<nome>Florestas equatoriais</nome>
+			<descricao>As grandes áreas de florestas equatoriais já desapareceram, pois foram transformadas em pastagens, áreas de cultivo agrícola, etc. Devido à baixa fertilidade, as áreas queimadas para uso da agricultura são rapidamente esgotadas e abandonadas. Ora, quando desmatada, a floresta transforma-se numa massa de pequenos arbustos interligados por trepadeiras e samambaias.</descricao>
+			<localizacao_geografica>As Florestas Equatoriais desenvolvem-se próximo da linha do Equador. Assim, podemos encontrá-las na América do Sul, no sudeste da Ásia e na África. A Floresta Amazónica (na América do Sul e a Floresta do Congo em África) são as principais Florestas Equatoriais.</localizacao_geografica>
+			<clima>Nestas regiões as temperaturas são elevadas e as chuvas abundantes durante o ano inteiro, o que mantem a floresta bastante húmida.</clima>
+			<flora>As características do clima permitem o desenvolvimento de uma vegetação densa com uma elevada riqueza de espécies vegetais. As árvores são, na sua maioria, de grande porte, atingindo facilmente 30 a 40 metros de altura, podendo haver espécies ainda maiores. Este estrato superior não é compacto, pois consiste em árvores emergentes dispersas que se elevam acima de um estrato compacto formado por árvores que possuem entre 20 a 30 metros de altura. Por outro lado, o dossel fechado impede a penetração de luz, fazendo com que abaixo deste apenas se encontrem árvores pequenas. Quando se abre alguma clareira, as árvores menores podem chegar a ocupar os estratos superiores da floresta, pois respondem rapidamente ao estímulo luminoso. No sub-bosque encontram-se arbustos e um estrato herbáceo pouco desenvolvido composto por ervas. No solo acumula-se a serapilheira, uma camada formada por folhas em mistura com frutos, flores, galhos, etc. A serapilheira é um importante compartimento da floresta, visto que é fundamental para a ciclagem de nutrientes. Ora, devido à forte lixiviação (escoamento dos minerais dissolvidos pela chuva), os solos são pobres em nutrientes. Porém, há um elevado número de organismos decompositores que são responsáveis pela rápida decomposição da matéria orgânica, garantindo uma acelerada ciclagem dos nutrientes. Os nutrientes são absorvidos pelos vegetais antes que ocorra a lixiviação.</flora>
+			<fauna>As florestas equatoriais abrigam uma fauna bastante rica. Na Amazónia alguns grupos são extremamente diversificados, como as aves, primatas e borboletas. Botos, onças, capivaras, bichos-preguiça, serpentes e sapos são alguns dos animais encontrados. Na Floresta do Congo destacam-se os gorilas e chimpanzés. Na Ásia encontram-se os tigres e leopardos.</fauna>
+		</tipo_floresta>
+		<tipo_floresta>
+			<id>floresta-tropical</id>
+			<imagem>f_tropicais.jpg</imagem>
+			<nome>Florestas tropicais</nome>
+			<descricao>As florestas tropicais são o bioma mais produtivo da Terra.</descricao>
+			<localizacao_geografica>Estas florestas localizam-se na faixa entre os trópicos: África, Ásia, América Central, América do Sul e em algumas regiões da Oceânia.</localizacao_geografica>
+			<clima>Em virtude da região em que estão localizadas, as florestas tropicais recebem uma grande quantidade de luz solar e possuem um clima bastante quente. As chuvas são frequentes e abundantes, estando a humidade relativa entre os 77 e os 88%. Estes fatores garantem uma elevada produtividade primária, resultando numa diversidade de recursos para os animais e contribuindo para a riqueza de espécies incrivelmente altas nestas florestas.</clima>
+			<flora>Em apenas 1 km² podem ser encontradas centenas de espécies de árvores, enquanto nas mesmas dimensões das florestas temperadas dificilmente encontramos mais do que uma dezena de espécies. O estrato emergente das florestas tropicais é formado por árvores muito altas e dispersas (entre 40 a 50 m), que se projetam acima do nível geral formado pelo estrato arbóreo (composto por árvores que formam um dossel contínuo e muito denso, atingindo entre 24 e 30 metros de altura). Por causa da densa cobertura os estratos arbustivos e herbáceos são pouco desenvolvidos, mas respondem rapidamente a qualquer abertura nos estratos superiores. As folhas são perenes. O estrato arbóreo concentra a maior diversidade de espécies vegetais, o que atrai diversos animais. Quase tudo em uma floresta tropical (fotossíntese, floração, frutificação, herbivoria e predação) acontece no alto do dossel. Há uma grande quantidade de formas vegetais que alcançam o dossel escalando os troncos das árvores, como as lianas. Para além disso, há, também, uma elevada diversidade de epífitas, principalmente bromélias e orquídeas, que crescem enraizadas nos ramos e troncos húmidos superiores.</flora>
+			<fauna>No dossel da floresta são encontrados macacos, sapos, lagartos, aves, preguiças, cobras, insetos e muitos outros animais. Na África os principais mamíferos são: antílopes, veado, elefante da floresta, chimpanzé e gorila. Na Ásia ocorrem o orangotango, gibão, tigres e musaranhos. Na Austrália encontram-se cangurus de floresta, gambás e ornitorrinco, entre as aves estão os papagaios reais, periquitos australianos e as extraordinárias aves do paraíso (também encontradas na Nova Guiné).Na América do sul, encontramos nas florestas tropicais, espécies como: cutia, paca, capivara, onça, jaguatirica, tamanduá, tatu e muitos outros. Entres as aves estão os tucanos, papagaios, águias, sanhaço, macuco, feiticeira, papa-moscas, etc. Há também muitas serpentes (jiboias, corais, jararacas), sapos, rãs, pererecas e peixes.</fauna>
+		</tipo_floresta>
+		<tipo_floresta>
+			<id>floresta-tundra</id>
+			<imagem>tundra.jpg</imagem>
+			<nome>Tundra</nome>
+			<descricao>A tundra é um bioma no qual a baixa temperatura e estações de crescimento curtas impedem o desenvolvimento de árvores.</descricao>
+			<localizacao_geografica>A região climática da tundra ocorre entre 60 e 75 ° de latitude, principalmente ao longo da costa ártica da América do Norte, incluindo o norte do Alasca, norte dos Territórios do Noroeste e de Nunavut, noroeste do Quebec, norte de Labrador e ao longo das margens da Groenlândia. Na Europa, o clima de tundra é encontrado em partes do litoral da Islândia, centro-sul da Noruega e Svalbard, extremo norte da Rússia europeia, nos Alpes envolvendo partes da Alemanha, Áustria, Eslovênia, França, Itália, Liechtenstein, Mónaco e Suíça, nos Pirenéus entre a França, Espanha e Andorra, nas Montanhas Făgăraș da Romênia e em outros pontos altos da Europa. Na Ásia, o clima túndrico é visto em pontos altos da China, como no Tibete e na cordilheira Transimalaia, na fronteira entre a China e no Nepal, incluindo o Monte Everest, e no litoral ártico da Sibéria. No Hemisfério Sul, o clima túndrico é bem mais raro, mas pode ser encontrado em boa parte da cordilheira dos Andes, em pontos altos da Colômbia e na Terra do Fogo entre Chile e Argentina.</localizacao_geografica>
+			<clima>O clima de tundra ou clima túndrico geralmente se enquadra na classificação climática de Köppen no tipo ET. Isso significa que o clima túndrico é um tipo de clima em que pelo menos um mês deve apresentar uma temperatura média alta o suficiente para derreter a neve, ou seja 0 °C, mas nenhum mês do ano pode apresentar temperatura média acima de 10 °C. O clima túndrico é em média mais quente que o clima glacial EF, onde o gelo e neve são permanentes, e mais frio que os climas subárticos designados Dfd, Dwd e Dsd. Em regra geral, os climas de tundra são hostis à vegetação lenhosa, mesmo onde os invernos são relativamente amenos para os padrões polares, como na Islândia.</clima>
+			<flora>A vegetação predominante é composta de líquenes, musgos, ervas e arbustos baixos, devido às condições climáticas que as impedem de crescer. As plantas com raízes longas não podem desenvolver-se, pois o subsolo permanece gelado. Por outro lado, como as temperaturas são muito baixas, a matéria orgânica decompõe-se muito lentamente e consequentemente, o crescimento da vegetação é lento. Uma adaptação que as plantas destas regiões desenvolveram é o crescimento em maciços, o que as ajuda a evitar o ar frio. Outra adaptação é que elas crescem junto ao solo, o que as protege dos ventos fortes. As folhas são pequenas, retendo a humidade com maior facilidade. Contudo, apesar destas condições, existe uma grande variedade de plantas que vivem na Tundra Ártica.</flora>
+			<fauna>A maioria dos animais, sobretudo aves e mamíferos, apenas utilizam a tundra no curto verão, migrando para regiões mais quentes no inverno. Por outro lado, os animais que vivem permanentemente nestas regiões, como os ursos-polares, bois-almiscarados e lobos árticos, desenvolveram as suas próprias adaptações para resistirem aos longos e frios meses de inverno. Os répteis e anfíbios são poucos ou encontram-se completamente ausentes devido às temperaturas serem muito baixas.</fauna>
+		</tipo_floresta>
+		<tipo_floresta>
+			<id>floresta-pradaria</id>
+			<imagem>pradaria.jpg</imagem>
+			<nome>Pradaria</nome>
+			<descricao>Uma pradaria ou relvado é uma planície vasta e aberta onde não há sinal de árvores nem arbustos. São regiões muito amplas e oferecem pastagens naturais para animais de pastoreio.</descricao>
+			<localizacao_geografica>Estão localizadas em praticamente todos os continentes, com maior ocorrência na América do Norte.</localizacao_geografica>
+			<clima>Localizam-se em regiões onde a queda pluviométrica é muito baixa.</clima>
+			<flora>Predominam gramíneas; alguns arbustos e flores mas quase nenhuma árvore.</flora>
+			<fauna>Alguns dos animais mais conhecidos que habitam as pradarias são os cães–da–pradaria, pica-paus, perdizes, pombos, veados–mula, antílopes, avestruzes e cavalos.</fauna>
+		</tipo_floresta>
+		<tipo_floresta>
+			<id>floresta-desertica</id>
+			<imagem>desertica.jpg</imagem>
+			<nome>Vegetação Desértica</nome>
+			<descricao>A vegetação desértica é aquela que encontramos nos diversos desertos presentes no mundo. Este tipo de vegetação é composto, principalmente, por plantas xerófilas, que possuem características favoráveis à adaptação a regiões com baixo índice pluviométrico (chuvas) e baixa humidade.</descricao>
+		</tipo_floresta>
+	</florestas>
+</menu>
