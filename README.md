@@ -10,7 +10,7 @@ Para o trabalho final da disciplina de Tecnologias Web, desenvolvi um sítio web
 
 Este trabalho divide-se em cinco páginas estáticas: index, início, florestas, sobre e contacto. Ora, o utilizador ao abrir o index, tem a identificação do autor do trabalho e da disciplina para o qual este foi feito. A partir desta página, tem acesso ao menu, onde pode navegar para as restantes páginas. 
 
-Na página “início”, encontramos um pequeno texto sobre a importância das florestas, que podemos continuar a ler se clicarmos no botão “saber mais”. Em baixo deste, existe uma pequena galeria com imagens relacionadas com as florestas.
+Na página “início”, encontramos um pequeno texto sobre a importância das florestas, que podemos continuar a ler se clicarmos no botão “saber mais”. Em baixo deste, existe uma pequena galeria com imagens relacionadas com as florestas. Esta é seguida de um texto idêntico ao anterior e de imagens das parecias, que nos redirecionam para os sites das mesmas.
 
 Na página “florestas”, podemos navegar pelos diferentes tipos de floresta que existem. Assim, ao clicarmos em cada um destes tipos, temos acesso às suas características, apresentadas pela seguinte ordem: localização, clima, flora, fauna. Contudo, é importante referir que há duas exceções que não respeitam este esquema: a floresta temperada (que apesar de ter todos estes tópicos, também, tem informações sobre os tipos de floresta temperada que existem) e a vegetação desértica (que não possui a informação distribuída por tópicos, sendo que, apenas possui um pequeno texto informativo).
 
