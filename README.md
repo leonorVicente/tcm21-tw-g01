@@ -20,7 +20,8 @@ Na página “contacto”, existe um formulário, através do qual, os utilizado
 
 **Galeria de imagens do resultado final**
 
-![image](https://user-images.githubusercontent.com/96235200/150234719-a6895215-9cec-4935-a339-ee7c3947d663.png)
+![image](https://user-images.githubusercontent.com/96235200/150235071-756b50be-e4af-43eb-b439-7e1a0a1603bd.png)
+
 
 
 **Organização do repositório**
