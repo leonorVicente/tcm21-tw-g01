@@ -188,19 +188,35 @@ Relativamente às ajudas de navegação, estas foram usadas:
 
 A. Tabela
 
+![image](https://user-images.githubusercontent.com/96235200/150235757-c6c2e1d7-e518-4dbd-8666-26ab2f623fcc.png)
+
 B. Listas
 
 Na página sobre, encontramos uma lista não ordenada aninhada.
 
+![image](https://user-images.githubusercontent.com/96235200/150235861-46fe11e8-fb8f-44a5-b88c-b2ffe7314ebb.png)
+
+
 Assim como, uma lista ordenada.
+
+![image](https://user-images.githubusercontent.com/96235200/150235899-bc728eb9-5604-493e-ba1a-5d64f60f31b1.png)
+
 
 C. Marcação correta do texto
 
 Na mensagem de sucesso que aparece após o formulário ser corretamente completado, usei strong para destacar o texto.
 
+![image](https://user-images.githubusercontent.com/96235200/150235942-5b76513c-e94a-4ca5-84de-f10a5389bb7f.png)
+
 Nos dois textos retirados de sites, utilizei emphasis, pois estes não são da minha autoria. 
 
+![image](https://user-images.githubusercontent.com/96235200/150235998-b9291be4-6f19-469d-97cf-227186b4dca0.png)
+
+
 Na página sobre, utilizei itálico para me referir a outras páginas do site.
+
+![image](https://user-images.githubusercontent.com/96235200/150236021-04b6d811-50ed-4592-9999-095ec5f2c271.png)
+
 
 D. Imagens
 
@@ -226,21 +242,42 @@ No meu trabalho usei os seguintes seletores simples:
 
 O seletor simples atributo, foi usado para os inputs text do formulário:
 
+![image](https://user-images.githubusercontent.com/96235200/150236147-aff9ae15-5723-4075-8e34-afcaf6b603b9.png)
+
+
 O seletor simples classe:
+
+![image](https://user-images.githubusercontent.com/96235200/150236188-39ca9a4e-d982-4fb0-b3f9-8a50eaad8067.png)
+
 
 O seletor simples pseudo-classe, que neste caso, permite eliminar o comportamento default do browser:
 
+![image](https://user-images.githubusercontent.com/96235200/150236245-899d95ba-85af-4d2f-928c-ffd4e7a789c3.png)
+
+
 O seletor simples tipo:
+
+![image](https://user-images.githubusercontent.com/96235200/150236298-9594d1d3-3749-4b12-b3f4-64a8ab4968c3.png)
+
 
 B. Seletor de pseudo-elementos e seletor combinador
 
 Usei o seletor de pseudo-elementos para que, antes e depois, de qualquer elemento, seja aplicado este box sizing, de forma a garantir que as definições da altura e largura dos componentes da página são apresentadas de modo coerente em relação a toda a página.
 
+![image](https://user-images.githubusercontent.com/96235200/150236352-30d95f6c-9590-456e-810a-e06f06b076af.png)
+
+
 Usei o seletor combinador, em casos como:
+
+![image](https://user-images.githubusercontent.com/96235200/150236374-cfc11b08-5ab6-40e8-a17b-0905d53a90f4.png)
+
 
 C. Propriedades do texto e da fonte
 
 Usei múltiplas vezes as propriedades do texto e da fonte, como por exemplo:
+
+![image](https://user-images.githubusercontent.com/96235200/150236409-c4d60910-a6fb-40a7-8da8-de2e8f2918f0.png)
+
 
 D. Formatação do fundo da página
 
@@ -248,23 +285,46 @@ Para o fundo das minhas páginas usei:
 
 Imagens de fundo, como por exemplo:
 
+![image](https://user-images.githubusercontent.com/96235200/150236457-042e3bc6-18f7-48ee-811b-d6bdcda08f53.png)
+
+
 Uma cor de fundo, como por exemplo:
+
+![image](https://user-images.githubusercontent.com/96235200/150236531-8d5e4895-3a4e-4168-b8aa-f713cca35407.png)
+
 
 E. Formatação de estilo para uma lista
 
 Usei a formatação de estilo para listas em vários casos, como por exemplo:
 
+![image](https://user-images.githubusercontent.com/96235200/150236669-7db91b49-d1bc-4b82-98d7-57b7e30373ef.png)
+
+
 F. Manipulação dos 4 elementos de formação da caixa de elementos HTML
 
 Para o meu site, manipulei o elemento main:
 
+![image](https://user-images.githubusercontent.com/96235200/150236716-5ca041e8-5c69-4bbd-a8b9-67d0bb496874.png)
+
+
 Para o meu site, manipulei o elemento nav:
+
+![image](https://user-images.githubusercontent.com/96235200/150236792-8988ac51-0f43-4984-9e3b-7540f73424cd.png)
+
 
 Para o meu site, manipulei o elemento footer:
 
+![image](https://user-images.githubusercontent.com/96235200/150236818-2bf2935c-1a57-4ec8-8545-c145fda4a6e6.png)
+
+
 Para o meu site, manipulei o elemento header:
 
+![image](https://user-images.githubusercontent.com/96235200/150236842-0705d2a2-5603-467b-95d2-855c61327d0e.png)
+
+
 G. Utilização de propriedades de flutuação, de posicionamento e combinadas
+
+
 
 H. Esconder um elemento
 
