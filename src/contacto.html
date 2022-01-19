@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <title>As Florestas</title>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--//meta tags ends here-->
+    <!--stylesheets-->
+    <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+    <!--//stylesheets-->
+    <!--javascript-->
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+
+		function validate() {
+
+            let nome = document.getElementById("nome").value;
+            let email = document.getElementById("email").value;
+            let mensagem = document.getElementById("mensagem").value;
+
+			let success = document.getElementById("success");			
+            success.style.display = "none";
+
+            if (nome == "") {				
+				alert("Por favor, preencha o nome.");
+                return false;
+			} else if (email == "") {
+				alert("Por favor, preencha o email");
+                return false;
+			} else if (mensagem == "") {
+				alert("Por favor, preencha a mensagem.");
+                return false;
+			} else if (email.indexOf('@') < 0) {
+				alert("Email inválido, por favor rectificar.");
+                return false;
+			}
+			
+
+            success.style.display = "block";
+
+            document.getElementById("nome").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("mensagem").value = "";
+
+            // return true;
+            return false;
+
+		}
+
+	</script>    
+    <!--//javascript-->
+  </head>
+  <body>
+
+    <!-- banner -->
+    <header class="banner b3" id="header">
+
+        <!-- to provide margin top -->
+        <div class="pre-nav"></div>
+
+        <!-- navbar -->
+        <nav>
+            <ul class="nav">
+                <li>
+                    <a href="home.html">Início</a>
+                </li>
+                <li>
+                    <a href="florestas.html">Florestas</a>
+                </li>
+                <li>
+                    <a href="sobre.html">Sobre</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="info text-center">          
+                <h4>"A tarefa do educador moderno não é derrubar florestas, mas irrigar desertos."</h4>            
+            </div>
+        </div>
+
+    </header>    
+    <!-- //banner -->
+
+    <!-- contact -->
+    <main class="contact pb-3 pt-3" id="contact">
+        
+        <div class="container p-3">
+            
+            <div>
+
+                <div class="p-3 text-center">
+                    <h3 class="title">Contacto</h3>
+                    <p class="sub-title">Para nos contactar preencha o seguinte formulário.</p>
+                </div>
+
+                <div class="p-3">
+                    <form action="#" onsubmit="return validate()" method="post">
+                        <div class="mb-3">
+                            <label for="nome">Nome</label>
+                            <input id="nome" type="text" placeholder="">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email">Email</label>
+                            <input id="email" type="text" placeholder="">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" placeholder="" rows="3"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit">Submeter</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div id="success" class="success pl-3 pr-3 pt-4 pb-4 text-center">
+                    <p class="pb-2"><strong>Obrigada por me contactar, irei responder à sua questão o mais breve possível!</strong></p>
+                </div>
+
+                <div class="pl-3 pr-3 pt-4 pb-4 text-center">
+                    <p class="pb-2">Para assuntos de caráter urgente, por favor, contacte-nos, atavés de:</p>
+                    <p><a href="mailto:urgente@florestas.pt">urgente@florestas.pt</a></p>
+                    <p>228 345 612 (disponível entre as 8h e as 20h)</p>
+                </div>
+
+            </div>
+            
+        </div>
+
+    </main>
+    <!--//contact -->
+
+    <!-- map -->
+    <section>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23883.15910383295!2d-8.423208189184821!3d41.56069742189625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24fe9c582066a1%3A0x689ccb122249f496!2sInstituto%20de%20Educa%C3%A7%C3%A3o%20da%20Universidade%20do%20Minho!5e0!3m2!1spt-PT!2spt!4v1641314865127!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <!--//map-->
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="p-4 text-center">
+          <h3 class="pt-2 pb-2">As Florestas</h3>
+          <p class="pt-2 pb-2">Um trabalho realizado por Maria Leonor Vicente</p>
+          <p class="pt-2 pb-2">Para a cadeira de Tecnologias Web, que integra a licenciatura em Tecnologias de Comunicação Multimédia do ISMAI</p>
+        </div>
+      </div>
+
+      <!-- move icon -->
+      <div>   
+        <a href="#header" id="move-top" class="move-top mt-3"></a>
+      </div>
+      <!--//move icon -->
+
+    </footer>
+    <!--//footer -->
+
+    <script>
+        window.onscroll = function() {showMoveTop()};
+    </script>        
+    
+  </body>
+</html>

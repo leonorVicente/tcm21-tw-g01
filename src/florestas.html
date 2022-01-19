@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+    <head>
+        <title>As Florestas</title>
+        <!-- meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--//meta tags ends here-->
+        <!--stylesheets-->
+        <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+        <!--//stylesheets-->
+        <!--javascript-->
+        <script type="text/javascript" src="js/main.js"></script>
+        <script>
+
+            function loadXMLDoc(filename) {
+
+                if (window.ActiveXObject) {
+                    xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+                } else {
+                    xhttp = new XMLHttpRequest();
+                }
+            
+                xhttp.open("GET", filename, false);
+            
+                try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
+            
+                xhttp.send("");
+
+                return xhttp.responseXML;
+
+            }
+
+            function displayResult() {
+
+                xml = loadXMLDoc("florestas.xml");
+                xsl = loadXMLDoc("florestas.xsl");
+
+                // code for IE
+                if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
+                    ex = xml.transformNode(xsl);
+                    document.getElementById("template").innerHTML = ex;
+                } else if (document.implementation && document.implementation.createDocument) { // code for Chrome, Firefox, Opera, etc.
+                    xsltProcessor = new XSLTProcessor();
+                    xsltProcessor.importStylesheet(xsl);
+                    resultDocument = xsltProcessor.transformToFragment(xml, document);
+                    document.getElementById("template").appendChild(resultDocument);
+                }
+
+
+                floresta('floresta-temperada');
+
+            }
+
+            function floresta(id) {
+
+                let florestas = document.getElementsByClassName("floresta-tipo");
+
+                for (let div of florestas) {
+
+                    let div_id = div.id;
+
+                    if(div_id === id) {
+                        div.style.display = 'block';
+                    } else {
+                        div.style.display = 'none';
+                    }
+                
+                }
+            }
+            
+        </script>
+        <!--//javascript-->
+    </head>
+    <body onload="displayResult()">
+
+        <!-- banner -->
+        <header class="banner b1" id="header">
+
+            <!-- to provide margin top -->
+            <div class="pre-nav"></div>
+
+            <!-- navbar -->
+            <nav>
+                <ul class="nav">
+                    <li>
+                        <a href="home.html">Início</a>
+                    </li>
+                    <li>
+                        <a href="#">Florestas</a>
+                    </li>
+                    <li>
+                        <a href="sobre.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="container">
+                <div class="info text-center">          
+                    <h4>"A terra é insultada e oferece suas flores como resposta"</h4>            
+                </div>
+            </div>
+
+        </header>    
+        <!-- //banner -->
+
+        <!-- floresta -->
+		<main class="floresta pt-3" id="floresta">
+			
+			<div class="container p-3">
+
+				<ul class="nav">
+					<li>
+						<span onclick="floresta('floresta-temperada')">Floresta Temperada</span>
+					</li>
+					<li>
+						<span onclick="floresta('floresta-seca')">Floresta Seca</span>
+					</li>
+					<li>
+						<span onclick="floresta('floresta-equatorial')">Floresta Equatorial</span>
+					</li>
+					<li>
+						<span onclick="floresta('floresta-tropical')">Floresta Tropical</span>
+					</li>
+					<li>
+						<span onclick="floresta('floresta-tundra')">Trundra</span>
+					</li>
+					<li>
+						<span onclick="floresta('floresta-pradaria')">Pradaria</span>
+					</li>
+					<li>
+						<span onclick="floresta('floresta-desertica')">Vegetação Desértica</span>
+					</li>
+				</ul>
+        
+                <div id="template"></div>
+				
+			</div>
+
+		</main>
+		<!--//floresta -->                
+        
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="p-4 text-center">
+                    <h3 class="pt-2 pb-2">As Florestas</h3>
+                    <p class="pt-2 pb-2">Um trabalho realizado por Maria Leonor Vicente</p>
+                    <p class="pt-2 pb-2">Para a cadeira de Tecnologias Web, que integra a licenciatura em Tecnologias de Comunicação Multimédia do ISMAI</p>
+                </div>
+            </div>
+
+            <!-- move icon -->
+            <div>   
+                <a href="#header" id="move-top" class="move-top mt-3"></a>
+            </div>
+            <!--//move icon -->
+
+        </footer>
+        <!--//footer -->
+
+        <script>
+            window.onscroll = function() {showMoveTop()};
+        </script>
+
+    </body>
+</html>
