@@ -28,7 +28,7 @@ No meu repositório existem:
   - Dentro desta pasta, também, existem as seguintes pastas: 
     - Javascript;
     - CSS;
-    - Imagens – onde estão as imagens usadas no site.
+    - Images – onde estão as imagens usadas no site.
 - A pasta *img*, onde estão as imagens incorporadas no ficheiro README;
 - O ficheiro README;
 - A licença do projeto.
