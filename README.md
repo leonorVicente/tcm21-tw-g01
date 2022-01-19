@@ -16,7 +16,7 @@ Na página “florestas”, podemos navegar pelos diferentes tipos de floresta q
 
 Na página “sobre”, encontramos informações acerca do sítio web, assim como, a explicação do seu propósito. Para além disso, é feita uma breve explicação da sua organização.
 
-Na página “contacto”, existe um formulário, através do qual, os utilizadores me podem contactar. Para o fazerem, basta preencherem os campos nome, email e mensagem. Por outro lado, se for um assunto de caráter urgente, encontram, nesta página, um número de telefone e um email, através dos quais me podem contactar. Por último, no final da página existe um mapa, com a localização do sítio onde estudo (ou seja, a Universidade da Maia).
+Na página “contacto”, existe um formulário, através do qual, os utilizadores me podem contactar. Para o fazerem, basta preencherem os campos nome, email e mensagem. Por outro lado, se for um assunto de caráter urgente, encontram, nesta página, um número de telefone e um email, através dos quais me podem contactar. Por último, no final da página existe um mapa, com a localização do sítio seria a sede do site.
 
 **Galeria de imagens do resultado final**
 
