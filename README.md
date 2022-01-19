@@ -28,12 +28,11 @@ Na página “contacto”, existe um formulário, através do qual, os utilizado
 
 No meu repositório existem:
 
-- A pasta *scr*, onde estão as cinco páginas html que criei, assim como, os ficheiros xml, xsd e xsl que usei para fazer a página “florestas”;
+- A pasta *src*, onde estão as cinco páginas html que criei, assim como, os ficheiros xml, xsd e xsl que usei para fazer a página “florestas”;
   - Dentro desta pasta, também, existem as seguintes pastas: 
     - Javascript;
     - CSS;
     - Images – onde estão as imagens usadas no site.
-- A pasta *img*, onde estão as imagens incorporadas no ficheiro README;
 - O ficheiro README;
 - A licença do projeto.
 
