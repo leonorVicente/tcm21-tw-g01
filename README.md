@@ -8,7 +8,7 @@
 
 Para o trabalho final da disciplina de Tecnologias Web, desenvolvi um sítio web intitulado *As Florestas*, cujo principal objetivo é informar a população acerca dos diferentes tipos de floresta que existem, assim como, das suas características. Para além disso, são, também, apresentados conteúdos sobre a importância destes ecossistemas.
 
-Este trabalho divide-se em cinco páginas estáticas: index, início, florestas, sobre e contacto. Ora, o utilizador ao abrir o index, tem a identificação do autor do trabalho e da disciplina para o qual este foi feito. A partir desta página, tem acesso ao menu, onde pode navegar para as restantes páginas. Assim, sempre que quiser voltar ao index, terá que clicar no botão que se encontra no fundo de cada página, no lado direito. 
+Este trabalho divide-se em cinco páginas estáticas: index, início, florestas, sobre e contacto. Ora, o utilizador ao abrir o index, tem a identificação do autor do trabalho e da disciplina para o qual este foi feito. A partir desta página, tem acesso ao menu, onde pode navegar para as restantes páginas. 
 
 Na página “início”, encontramos um pequeno texto sobre a importância das florestas, que podemos continuar a ler se clicarmos no botão “saber mais”. Em baixo deste, existe uma pequena galeria com imagens relacionadas com as florestas.
 
