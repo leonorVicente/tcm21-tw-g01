@@ -324,15 +324,39 @@ Para o meu site, manipulei o elemento header:
 
 G. Utilização de propriedades de flutuação, de posicionamento e combinadas
 
+Combinadas:
 
+![image](https://user-images.githubusercontent.com/96235200/150236960-fe7c782f-1630-432d-988a-622b871b3e3f.png)
+
+Flutuação:
+
+![image](https://user-images.githubusercontent.com/96235200/150237004-3474bf3a-f07c-4fa5-b4ad-999830f028a2.png)
+
+Posicionamento:
+
+![image](https://user-images.githubusercontent.com/96235200/150237054-7831b28f-331a-41d6-9781-b0b328d70047.png)
 
 H. Esconder um elemento
 
+Para esconder um elemento, recorri ao javascrip e ao CSS, que usados em conjunto me permitiram esconder, por exemplo, o texto dos restantes tipos de floresta, quando selecionamos um determinado tipo (tal como vimos acima).
+
 I. Formatação de uma tabela
 
-J. Substituição de um elemento por uma imagem
+![image](https://user-images.githubusercontent.com/96235200/150237256-95a57c3d-01fd-46be-a9f4-24e1e4cf59b3.png)
 
-K. Responsividade
+
+J. Responsividade
+
+Este trabalho foi realizado num monitor de 1929x1080
+
+![image](https://user-images.githubusercontent.com/96235200/150237351-e199d05e-f85d-4bb6-8508-c3742c547524.png)
+
+
+![image](https://user-images.githubusercontent.com/96235200/150237443-dbfaf94b-5f37-42a6-ae28-2476c6dc73b5.png)
+
+![image](https://user-images.githubusercontent.com/96235200/150237483-8d25802c-cfcb-4f1b-8ed3-f270253779d6.png)
+
+
 
 **Conclusão**
 
