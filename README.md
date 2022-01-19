@@ -33,6 +33,7 @@ No meu repositório existem:
     - Javascript;
     - CSS;
     - Images – onde estão as imagens usadas no site.
+    - Video.
 - O ficheiro README;
 - A licença do projeto.
 
@@ -55,7 +56,8 @@ A organização do site está descrita acima no ponto número 2.
 
 Antes de chegar a esta organização, tive que desenhar *wireframes* de cada uma das páginas do site. Para o fazer recorri ao programa *Illustrator*, pois sinto-me bastante familiarizada com o mesmo.
 
-Xxxxx
+![image](https://user-images.githubusercontent.com/96235200/150235363-aede350f-3a48-477b-ae26-ade102567820.png)
+
 
 Esta foi a minha ideia inicial e surgiu da visualização dos conteúdos existentes no site *w3* sobre o layout das páginas html: [HTML Layout Elements and Techniques (w3schools.com)](https://www.w3schools.com/html/html_layout.asp)
 
