@@ -360,7 +360,7 @@ Este trabalho foi realizado num monitor de 1929x1080
 
 **Conclusão**
 
-Em suma, as principais dificuldades que senti no trabalho, não foram na construção do site, nem na aplicação dos conhecidos, mas sim, no funcionamento com a plataforma Github e com a linguagem markdown.
+Em suma, as principais dificuldades que senti no trabalho, não foram na construção do site, nem na aplicação dos conhecimentos, mas sim, no funcionamento com a plataforma Github e com a linguagem markdown.
 
 
 
